@@ -19,3 +19,15 @@
 * ***year***: The year of emissions recorded
 
 Source Classification Code Table ***(Source_Classification_Code.rds)***: This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
+
+***Q1.*** Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot           showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
+
+***Q2.*** Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips=="24510")from 1999 to 2008? Use the base plotting system to make a plot answering this question.
+
+***Q3.*** Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which           of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in                   emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.
+
+***Q4.*** Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
+
+***Q5.*** How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
+
+***Q6.*** Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles                 County, California (fips=="06037"). Which city has seen greater changes over time in motor vehicle emissions?
